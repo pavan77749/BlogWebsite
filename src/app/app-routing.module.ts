@@ -8,7 +8,7 @@ import { TermsContitionsComponent } from './pages/terms-contitions/terms-contiti
 import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
-  {path: '/', component:HomeComponent},
+  {path: '', component:HomeComponent},
   {path:'category', component:SingleCategoryComponent},
   {path:'post', component:SinglePostComponent},
   {path:'about', component:AboutComponent},
